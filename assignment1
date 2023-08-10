@@ -1,0 +1,27 @@
+#Variable Defining
+name = input("Masukkan namamu disini: ")
+age = int(input("Masukkan usiamu disini: "))
+height = float(input("Masukkan tinggi badanmu disini: "))
+is_student = True
+
+
+#Variable Types
+print("")
+print("This is the data type of Name variable:", type(name) )
+print("This is the data type of Age variable:", type(age))
+print("This is the data type of Height variable:", type(height) )
+print("This is the data type of Is_Student variable:", type(is_student))
+
+#Operations
+age_in_dog_years= age*7
+height_in_cm= height*100
+
+#End Result
+print("")
+if is_student == True:
+    print(name, "is a student")
+elif is_student == False:
+    print(name, "is not a student")
+
+print(age, "years", "(",age_in_dog_years, "dog years",")")
+print(height, "m", "(",height_in_cm, "cm",")")
